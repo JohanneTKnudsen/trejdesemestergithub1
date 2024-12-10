@@ -1,0 +1,33 @@
+/* Styling for hele applikationen */
+#root {
+    -fx-background-color: #F9F9FB;
+    -fx-padding: 20px;
+}
+
+/* Styling for labels */
+#bill-label, #tip-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+
+/* Styling for tekstfelt */
+#bill-input {
+    -fx-border-color: #B59F84;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* Styling for slider */
+#tip-slider {
+    -fx-control-inner-background: #B59F84; /* Sliderens farve */
+}
+
+/* Styling for result labels */
+#tip-amount-label, #total-amount-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #B59F84;
+}
